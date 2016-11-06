@@ -17,6 +17,8 @@ gem 'coffee-rails', '~> 4.2'
 # gem 'therubyracer', platforms: :ruby
 #Added the gem Bootstrap
 gem 'bootstrap', '~> 4.0.0.alpha5'
+#Added the react GEM
+gem 'react-rails'
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
 # Turbolinks makes navigating your web application faster. Read more: https://github.com/turbolinks/turbolinks
