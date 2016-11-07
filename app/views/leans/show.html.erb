@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Date:</strong>
+  <%= @lean.date %>
+</p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @lean.name %>
+</p>
+
+<p>
+  <strong>Age:</strong>
+  <%= @lean.age %>
+</p>
+
+<%= link_to 'Edit', edit_lean_path(@lean) %> |
+<%= link_to 'Back', leans_path %>

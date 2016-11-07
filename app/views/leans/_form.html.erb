@@ -1,0 +1,32 @@
+<%= form_for(lean) do |f| %>
+  <% if lean.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(lean.errors.count, "error") %> prohibited this lean from being saved:</h2>
+
+      <ul>
+      <% lean.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :date %>
+    <%= f.date_select :date %>
+  </div>
+
+  <div class="field">
+    <%= f.label :name %>
+    <%= f.text_field :name %>
+  </div>
+
+  <div class="field">
+    <%= f.label :age %>
+    <%= f.number_field :age %>
+  </div>
+
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

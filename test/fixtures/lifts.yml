@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  join_date: 2016-11-06
+  name: MyString
+  fit: false
+  age: 1
+  repsperformed: 1
+  onerm: 1
+
+two:
+  join_date: 2016-11-06
+  name: MyString
+  fit: false
+  age: 1
+  repsperformed: 1
+  onerm: 1
